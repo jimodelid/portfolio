@@ -124,7 +124,7 @@ export default function Home() {
               <PortfolioCard
                 image="/logos/vsupport.png"
                 title="vSupport"
-                text="Support App med öppettider, driftstörning, telefon och chatt och fler kommande funktioner."
+                text="Support App med öppettider, driftstörning, telefon, chatt och fler kommande funktioner."
                 appstore="https://apps.apple.com/se/app/vsupport/id1627177919"
                 playstore="https://play.google.com/store/apps/details?id=com.vendolink.vsupport"
               />
