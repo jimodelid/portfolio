@@ -66,7 +66,7 @@ export default function Home() {
               Jag har många erfarenheter men dessa har högst fokus hos mig.
             </div>
           </div>
-          <div className="mt-5 grid grid-cols-2 2xl:grid-cols-6 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 gap-5">
+          <div className="mt-10 grid grid-cols-2 2xl:grid-cols-6 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 gap-5">
             <Card
               background="bg-blue-300"
               image="/logos/flutter.png"

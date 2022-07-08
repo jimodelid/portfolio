@@ -8,7 +8,7 @@ export default function Card(props) {
     >
       <div className="flex justify-center">
         <img
-          className="bg-white rounded-xl w-2/3 max-h-32"
+          className="bg-white rounded-xl w-full max-h-38"
           src={props.image}
           alt={props.title}
         />
