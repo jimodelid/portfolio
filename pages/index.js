@@ -59,14 +59,14 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="p-20 pb-36">
-          <div className="text-center py-16">
+        <div className="p-5 sm:p-10 md:p-20 pb-16">
+          <div className="text-center py-5 pt-16 sm:py-10 md:py-16">
             <div className="uppercase font-semibold text-3xl">Erfarenhet</div>
             <div className="text-lg">
               Jag har många erfarenheter men dessa har högst fokus hos mig.
             </div>
           </div>
-          <div className="mt-10 grid grid-cols-2 2xl:grid-cols-6 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 gap-5">
+          <div className="mt-5 grid grid-cols-2 2xl:grid-cols-6 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 gap-2 sm:gap-5">
             <Card
               background="bg-blue-300"
               image="/logos/flutter.png"
@@ -117,10 +117,10 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="-skew-y-6 bg-purple-200 p-20 my-10 shadow-inner">
+        <div className="-skew-y-6 bg-purple-200 p-5 sm:p-10 md:p-20 my-10 shadow-inner">
           <div className="skew-y-6 text-center py-10">
             <div className="font-semibold text-4xl mb-10">Portfolio</div>
-            <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6 gap-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6 gap-5">
               <PortfolioCard
                 image="/logos/vsupport.png"
                 title="vSupport"
@@ -159,7 +159,7 @@ export default function Home() {
           </div>
         </div>
         <div className="bg-black opacity-80 p-20 shadow-inner text-center text-white">
-          Copyright 2022 &copy; Jim Odelid - All rights reserved.
+          Copyright 2022 &copy; Jim Odelid <br /> All rights reserved.
         </div>
       </main>
     </div>

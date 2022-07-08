@@ -3,7 +3,7 @@ export default function PortfolioCard(props) {
     <div className="p-5 transition ease-in-out duration-1000 hover:scale-110">
       <div className="flex justify-center">
         <img
-          className="bg-white rounded-full max-w-xs max-h-48"
+          className="bg-white rounded-full max-w-full max-h-48"
           src={props.image}
           alt={props.title}
         />
