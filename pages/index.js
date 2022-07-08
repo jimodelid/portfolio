@@ -28,7 +28,7 @@ export default function Home() {
           <div className="text-5xl mt-6 mb-2 font-bold transition-all ease-in-out delay-150 duration-300">
             Jim Odelid
           </div>
-          <div className="text-xl">
+          <div className="text-md sm:text-xl">
             Apputvecklare | Webbutvecklare | Designer
           </div>
         </div>
