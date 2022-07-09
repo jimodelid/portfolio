@@ -25,7 +25,7 @@ export default function Home() {
               height="300"
             />
           </div>
-          <div className="text-5xl mt-6 mb-2 font-bold transition-all ease-in-out delay-150 duration-300">
+          <div className="text-5xl mt-2 mb-2 font-bold transition-all ease-in-out delay-150 duration-300">
             Jim Odelid
           </div>
           <div className="text-md sm:text-xl">
@@ -46,23 +46,25 @@ export default function Home() {
                 <div className="w-full text-3xl uppercase font-semibold pt-10">
                   Om mig
                 </div>
-                <div className="text-lg py-4 sm:py-10 px-5">
+                <div className="text-lg py-4 px-5">
                   Jag är en mjukvaruingenjör med meritlista inom
                   supportbranschen. Jag har en passion för människor och älskar
                   att ta itu med unika problem. Som en erfaren utvecklare och
-                  designer drivs jag av att hjälpa dem jag arbetar med att se
-                  sin potential i sin nystartade eller befintliga verksamhet med
-                  hjälp av mina tjänster.
+                  designer drivs jag av att hjälpa mina klienter med att se sin
+                  potential i sin nystartade eller befintliga verksamhet med
+                  hjälp av mina tjänster. <br /> Jag tar hänsyn till alla dina
+                  önskemål samt bidrar med lösningar och nytänkande till ett
+                  förmånligt pris.
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div className="p-5 sm:p-10 md:p-20 pb-16">
-          <div className="text-center py-5 pt-16 sm:py-10 md:py-16">
-            <div className="uppercase font-semibold text-3xl">Erfarenhet</div>
+          <div className="text-center py-5 pt-16 sm:py-10">
+            <div className="uppercase font-semibold text-3xl">Kompetenser</div>
             <div className="text-lg">
-              Jag har många erfarenheter men dessa har högst fokus hos mig.
+              Jag har många kompetenser men dessa har högst fokus hos mig.
             </div>
           </div>
           <div className="mt-5 grid grid-cols-2 2xl:grid-cols-6 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 gap-2 sm:gap-5">
@@ -118,14 +120,33 @@ export default function Home() {
         </div>
         <div className="-skew-y-6 bg-purple-200 p-5 sm:p-10 md:p-20 my-10 shadow-inner">
           <div className="skew-y-6 text-center py-10">
-            <div className="font-semibold text-4xl mb-10">Portfolio</div>
+            <div className="font-semibold text-4xl">Portfölj</div>
+            <div className="text-lg mb-10">
+              Projekt jag hanterat själv eller varit delaktig i för att nå en
+              färdig basis.
+            </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6 gap-5">
               <PortfolioCard
                 image="/logos/vsupport.png"
                 title="vSupport"
                 text="Support App med öppettider, driftstörning, telefon, chatt och fler kommande funktioner."
+                platform="app"
                 appstore="https://apps.apple.com/se/app/vsupport/id1627177919"
                 playstore="https://play.google.com/store/apps/details?id=com.vendolink.vsupport"
+              />
+              <PortfolioCard
+                image="/logos/revolutioab.png"
+                title="Revolutio AB"
+                text="Webbutik för en cykelhandlare som integrerat med POS, baserat på Prestashop plattformen."
+                platform="web"
+                weblink="https://revolutioab.se"
+              />
+              <PortfolioCard
+                image="/logos/jsskylift.png"
+                title="JS Skylift"
+                text="Enkel hemsida för uthyrning av skylift med integrerad adminpanel för egenhantering."
+                platform="web"
+                weblink="http://jsskylift.se"
               />
             </div>
           </div>
