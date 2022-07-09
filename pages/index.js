@@ -35,11 +35,10 @@ export default function Home() {
         <div className="bg-purple-200 py-24 px-10 skew-y-6 shadow-inner flex justify-center">
           <div className="sm:flex  max-w-5xl -skew-y-6">
             <div className="w-full sm:w-1/2 flex justify-center">
-              <Image
-                className="rounded-full transition ease-in-out duration-1000 hover:scale-75"
-                src="/profile_pic.webp"
-                width="400"
-                height="600"
+              <img
+                className="rounded-full p-5 max-w-sm"
+                alt="Jim Odelid"
+                src="/profile2.jpg"
               />
             </div>
             <div className="w-full sm:w-1/2 text-center flex justify-center items-center sm:ml-5">
@@ -47,7 +46,7 @@ export default function Home() {
                 <div className="w-full text-3xl uppercase font-semibold pt-10">
                   Om mig
                 </div>
-                <div className="text-lg py-4 sm:py-10 sm:px-5">
+                <div className="text-lg py-4 sm:py-10 px-5">
                   Jag är en mjukvaruingenjör med meritlista inom
                   supportbranschen. Jag har en passion för människor och älskar
                   att ta itu med unika problem. Som en erfaren utvecklare och
