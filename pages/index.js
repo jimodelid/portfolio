@@ -15,11 +15,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <div className="pt-20 pb-40 text-center">
-          <div className="flex  justify-center">
+      <main className="max-w-full">
+        <div className="max-w-full pt-20 pb-40 text-center">
+          <div className="flex justify-center">
             <Image
-              className="rounded-full transition ease-in-out duration-1000 hover:scale-75"
+              className="rounded-full max-w-full transition ease-in-out duration-1000 hover:scale-75"
               src="/logos/logo.png"
               width="300"
               height="300"
@@ -32,7 +32,7 @@ export default function Home() {
             Apputvecklare | Webbutvecklare | Designer
           </div>
         </div>
-        <div className="bg-purple-200 py-24 skew-y-6 shadow-inner flex  justify-center">
+        <div className="max-w-full bg-purple-200 py-24 skew-y-6 shadow-inner flex  justify-center">
           <div className="sm:flex sm: max-w-5xl -skew-y-6">
             <div className="w-full sm:w-1/2 flex justify-center">
               <img
@@ -118,7 +118,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="-skew-y-6 bg-purple-200 p-5 sm:p-10 md:p-20 my-10 shadow-inner">
+        <div className="max-w-full -skew-y-6 bg-purple-200 p-5 sm:p-10 md:p-20 my-10 shadow-inner">
           <div className="skew-y-6 text-center py-10">
             <div className="font-semibold text-4xl">PORTFÖLJ</div>
             <div className="text-lg mb-10">
@@ -160,28 +160,28 @@ export default function Home() {
           <div className="grid grid-cols-3 gap-5 contact-links">
             <a target="blank" href="https://www.linkedin.com/in/jim-sundqvist/">
               <img
-                className="transition ease-in-out duration-1000 hover:scale-110"
+                className="transition max-w-full ease-in-out duration-1000 hover:scale-110"
                 src="/logos/linkedin.png"
                 alt="linkedin"
               />
             </a>
             <a target="blank" href="https://github.com/jimodelid">
               <img
-                className="transition ease-in-out duration-1000 hover:scale-110"
+                className="transition max-w-full ease-in-out duration-1000 hover:scale-110"
                 src="/logos/github.png"
                 alt="github"
               />
             </a>
             <a target="blank" href="mailto:jim.odelid@gmail.com">
               <img
-                className="transition ease-in-out duration-1000 hover:scale-110"
+                className="transition max-w-full ease-in-out duration-1000 hover:scale-110"
                 src="/logos/mail.png"
                 alt="mail"
               />
             </a>
           </div>
         </div>
-        <div className="bg-black opacity-80 p-20 shadow-inner text-center text-white">
+        <div className="max-w-full bg-black opacity-80 p-20 shadow-inner text-center text-white">
           Copyright 2022 &copy; Jim Odelid <br /> All rights reserved.
         </div>
       </main>
