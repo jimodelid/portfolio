@@ -120,7 +120,7 @@ export default function Home() {
         </div>
         <div className="-skew-y-6 bg-purple-200 p-5 sm:p-10 md:p-20 my-10 shadow-inner">
           <div className="skew-y-6 text-center py-10">
-            <div className="font-semibold text-4xl">Portfölj</div>
+            <div className="font-semibold text-4xl">PORTFÖLJ</div>
             <div className="text-lg mb-10">
               Projekt jag hanterat själv eller varit delaktig i för att nå en
               färdig basis.
