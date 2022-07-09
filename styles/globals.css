@@ -18,6 +18,7 @@ a {
 */
 * {
   box-sizing: border-box;
+  overflow-x: none;
 }
 
 .portfolio-card-link a:hover {
