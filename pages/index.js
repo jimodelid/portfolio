@@ -5,7 +5,7 @@ import PortfolioCard from "../modules/portfolio-card";
 
 export default function Home() {
   return (
-    <div>
+    <div className="max-w-full">
       <Head>
         <title>Jim Odelid - Utvecklare</title>
         <meta
