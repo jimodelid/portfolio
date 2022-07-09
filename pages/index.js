@@ -36,7 +36,7 @@ export default function Home() {
           <div className="sm:flex  max-w-5xl -skew-y-6">
             <div className="w-full sm:w-1/2 flex justify-center">
               <img
-                className="rounded-full p-5 max-w-sm"
+                className="p-5 max-w-sm profile-pic"
                 alt="Jim Odelid"
                 src="/profile2.jpg"
               />
