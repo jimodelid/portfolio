@@ -17,7 +17,7 @@ export default function Home() {
 
       <main>
         <div className="pt-20 pb-40 text-center">
-          <div className="flex justify-center">
+          <div className="flex  justify-center">
             <Image
               className="rounded-full transition ease-in-out duration-1000 hover:scale-75"
               src="/logos/logo.png"
@@ -32,8 +32,8 @@ export default function Home() {
             Apputvecklare | Webbutvecklare | Designer
           </div>
         </div>
-        <div className="bg-purple-200 py-24 skew-y-6 shadow-inner flex justify-center">
-          <div className="sm:flex  max-w-5xl -skew-y-6">
+        <div className="bg-purple-200 py-24 skew-y-6 shadow-inner flex  justify-center">
+          <div className="sm:flex sm: max-w-5xl -skew-y-6">
             <div className="w-full sm:w-1/2 flex justify-center">
               <img
                 className="p-5 max-w-sm profile-pic"
@@ -67,7 +67,7 @@ export default function Home() {
               Jag har många kompetenser men dessa har högst fokus hos mig.
             </div>
           </div>
-          <div className="mt-5 grid grid-cols-2 2xl:grid-cols-6 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 gap-2 sm:gap-5">
+          <div className="mt-5 grid grid-cols-2 2xl:grid-cols-6 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 gap-2 sm:gap-5 overflow-x-hidden">
             <Card
               background="bg-blue-300"
               image="/logos/flutter.png"
@@ -125,7 +125,7 @@ export default function Home() {
               Projekt jag hanterat själv eller varit delaktig i för att nå en
               färdig basis.
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6 gap-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6 gap-5 overflow-x-hidden">
               <PortfolioCard
                 image="/logos/vsupport.png"
                 title="vSupport"
