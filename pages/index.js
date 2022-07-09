@@ -154,7 +154,7 @@ export default function Home() {
         <div className="my-24 text-center">
           <div className="text-4xl font-semibold">TA KONTAKT</div>
           <div className="text-lg">
-            Du når mig enklast på någon av dessa plafformar.
+            Du når mig enklast på någon av dessa plattformar.
           </div>
           <hr className="w-1/5 border m-auto my-10 border-gray-300 transition ease-in-out duration-1000 hover:scale-150" />
           <div className="grid grid-cols-3 gap-5 contact-links">
