@@ -32,7 +32,7 @@ export default function Home() {
             Apputvecklare | Webbutvecklare | Designer
           </div>
         </div>
-        <div className="bg-purple-200 py-24 px-10 skew-y-6 shadow-inner flex justify-center">
+        <div className="bg-purple-200 py-24 skew-y-6 shadow-inner flex justify-center">
           <div className="sm:flex  max-w-5xl -skew-y-6">
             <div className="w-full sm:w-1/2 flex justify-center">
               <img
