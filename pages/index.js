@@ -171,12 +171,12 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div className="max-w-full bg-black opacity-80 p-20 shadow-inner text-center text-white">
-          <span>
-            Copyright 2022 &copy; Jim Odelid <br /> All rights reserved.
-          </span>
-        </div>
       </main>
+      <footer className="max-w-full bg-black opacity-80 p-20 shadow-inner text-center text-white">
+        <span>
+          Copyright 2022 &copy; Jim Odelid <br /> All rights reserved.
+        </span>
+      </footer>
     </div>
   );
 }
