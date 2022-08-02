@@ -1,6 +1,6 @@
 export default function PortfolioCard(props) {
   return (
-    <div className="p-5 transition ease-in-out duration-1000 hover:scale-110">
+    <div className="p-5 flex flex-col transition ease-in-out duration-1000 hover:scale-110">
       <div className="flex justify-center">
         <img
           className="bg-white rounded-full max-w-full max-h-48"
@@ -8,7 +8,7 @@ export default function PortfolioCard(props) {
           alt={props.title}
         />
       </div>
-      <div className="mt-5">
+      <div className="flex-1 mt-5">
         <div className="text-xl font-semibold">{props.title}</div>
         <div>{props.text}</div>
       </div>
