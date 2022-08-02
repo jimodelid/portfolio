@@ -4,6 +4,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 Download the portfolio and make sure you have node and npm installed.
 
+Open the folder and run npm install in order to download all the packages used.
+
 First, run the development server:
 
 ```bash
