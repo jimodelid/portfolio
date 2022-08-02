@@ -25,12 +25,12 @@ export default function Home() {
               height="300"
             />
           </div>
-          <div className="text-5xl mt-2 mb-2 font-bold transition-all ease-in-out delay-150 duration-300">
+          <h1 className="text-5xl mt-2 mb-2 font-bold transition-all ease-in-out delay-150 duration-300">
             Jim Odelid
-          </div>
-          <div className="text-md sm:text-xl">
+          </h1>
+          <h3 className="text-md sm:text-xl">
             Apputvecklare | Webbutvecklare | Designer
-          </div>
+          </h3>
         </div>
         <div className="max-w-full bg-purple-200 py-24 skew-y-6 shadow-inner flex  justify-center">
           <div className="sm:flex sm: max-w-5xl -skew-y-6">
@@ -43,10 +43,10 @@ export default function Home() {
             </div>
             <div className="w-full sm:w-1/2 text-center flex justify-center items-center sm:ml-5">
               <div>
-                <div className="w-full text-3xl uppercase font-semibold pt-10">
+                <h2 className="w-full text-3xl uppercase font-semibold pt-10">
                   Om mig
-                </div>
-                <div className="text-lg py-4 px-5">
+                </h2>
+                <p className="text-lg py-4 px-5">
                   Jag är en mjukvaruingenjör med meritlista inom
                   supportbranschen. Jag har en passion för människor och älskar
                   att ta itu med unika problem. Som en erfaren utvecklare och
@@ -55,30 +55,30 @@ export default function Home() {
                   hjälp av mina tjänster. <br /> Jag tar hänsyn till alla dina
                   önskemål samt bidrar med lösningar och nytänkande till ett
                   förmånligt pris.
-                </div>
+                </p>
               </div>
             </div>
           </div>
         </div>
         <div className="p-5 sm:p-10 md:p-20 pb-16">
           <div className="text-center py-5 pt-16 sm:py-10">
-            <div className="uppercase font-semibold text-3xl">Kompetenser</div>
-            <div className="text-lg">
+            <h2 className="uppercase font-semibold text-3xl">Kompetenser</h2>
+            <p className="text-lg">
               Jag har många kompetenser men dessa har högst fokus hos mig.
-            </div>
+            </p>
           </div>
-          <div className="p-5 grid grid-cols-2 2xl:grid-cols-6 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 gap-2 sm:gap-5 overflow-x-hidden">
+          <div className="p-5 grid grid-cols-2 lg:grid-cols-4 md:grid-cols-3 gap-2 sm:gap-5 overflow-x-hidden max-w-5xl m-auto">
             <Card
               background="bg-blue-300"
               image="/logos/flutter.png"
               title="Flutter"
-              text="För utveckling mot alla plattformar så som PC, mobil och Web, baseras på språket dart."
+              text="För utveckling mot alla plattformar så som PC, Mobil och Web. Baseras på språket dart."
             />
             <Card
               background="bg-black"
               image="/logos/nextjs.webp"
               title="Next.JS"
-              text="För utveckling mot webb och API, enligt mig en förbättrad variant av React.JS."
+              text="För utveckling mot webb och API, enligt mig en förbättrad och förenklad variant av React.JS."
             />
             <Card
               background="bg-orange-400"
@@ -87,45 +87,31 @@ export default function Home() {
               text="Molnlösning med Databas, lagring, authentisering och notifikationer med mera."
             />
             <Card
-              background="bg-purple-800"
-              image="/logos/ai.png"
-              title="Adobe Illustrator"
-              text="Grafiskt designverktyg som gör arbetet enklare för avancerade design behov."
+              background="bg-red-400"
+              image="/logos/hjc.png"
+              title="HTML/CSS/JS"
+              text="Standard ramverk för att strukturera, styla och manipulera information och innehåll på webben."
             />
-            <Card
-              background="bg-blue-400"
-              image="/logos/ps.png"
-              title="Photoshop"
-              text="Bildredigeringsverktyg för både lätt och avancerad redigering av bilder och logotyper."
-            />
-            <Card
-              background="bg-orange-400"
-              image="/logos/html.webp"
-              title="HTML"
-              text="Standard ramverk för att strukturera information på webben."
-            />
-            <Card
-              background="bg-blue-500"
-              image="/logos/css.webp"
-              title="CSS"
-              text="Standard designsspråk för att manipulera innehåll, färger och text på webben."
-            />
-            <Card
-              background="bg-orange-300"
-              image="/logos/js.webp"
-              title="Javascript"
-              text="Standard språk för många ramverk samt ger funktioner på webben som inte finns i vanliga fall."
-            />
+          </div>
+          <hr className="w-1/5 border m-auto my-12 border-gray-300 transition ease-in-out duration-1000 hover:scale-150" />
+          <div className="text-center">
+            <h4 className="text-xl pb-2">
+              Nämnvärda kompetenser med mindre fokus
+            </h4>
+            <p>
+              MySQL | MariaDB | Supabase | PostgreSQL | MongoDB | React | Vue |
+              PHP | React Native | Ionic
+            </p>
           </div>
         </div>
         <div className="max-w-full -skew-y-6 bg-purple-200 p-5 sm:p-10 md:p-20 my-10 shadow-inner">
           <div className="skew-y-6 text-center py-10">
-            <div className="font-semibold text-4xl">PORTFÖLJ</div>
-            <div className="text-lg mb-10">
+            <h2 className="font-semibold text-4xl">PORTFÖLJ</h2>
+            <p className="text-lg mb-10">
               Projekt jag hanterat själv eller varit delaktig i för att nå en
               färdig basis.
-            </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6 gap-5 overflow-x-hidden">
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 overflow-x-hidden max-w-5xl m-auto">
               <PortfolioCard
                 image="/logos/vsupport.png"
                 title="vSupport"
@@ -156,12 +142,12 @@ export default function Home() {
           </div>
         </div>
         <div className="my-24 text-center">
-          <div className="text-4xl font-semibold">TA KONTAKT</div>
-          <div className="text-lg">
+          <h2 className="text-4xl font-semibold">TA KONTAKT</h2>
+          <p className="text-lg">
             Du når mig enklast på någon av dessa plattformar.
-          </div>
+          </p>
           <hr className="w-1/5 border m-auto my-10 border-gray-300 transition ease-in-out duration-1000 hover:scale-150" />
-          <div className="grid grid-cols-3 gap-5 contact-links">
+          <div className="grid grid-cols-3 gap-5 contact-links max-w-5xl m-auto">
             <a target="blank" href="https://www.linkedin.com/in/jim-sundqvist/">
               <img
                 className="transition max-w-full ease-in-out duration-1000 hover:scale-110"
@@ -186,7 +172,9 @@ export default function Home() {
           </div>
         </div>
         <div className="max-w-full bg-black opacity-80 p-20 shadow-inner text-center text-white">
-          Copyright 2022 &copy; Jim Odelid <br /> All rights reserved.
+          <span>
+            Copyright 2022 &copy; Jim Odelid <br /> All rights reserved.
+          </span>
         </div>
       </main>
     </div>

@@ -14,8 +14,8 @@ export default function Card(props) {
         />
       </div>
       <div className="text-white mt-5">
-        <div className="text-xl font-semibold">{props.title}</div>
-        <div>{props.text}</div>
+        <h3 className="text-xl font-semibold">{props.title}</h3>
+        <p>{props.text}</p>
       </div>
     </div>
   );
