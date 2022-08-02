@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
 
       <main className="max-w-full">
-        <div className="max-w-full pt-20 pb-40 text-center">
+        <header className="max-w-full pt-20 pb-40 text-center">
           <div className="flex justify-center">
             <Image
               className="rounded-full max-w-full transition ease-in-out duration-1000 hover:scale-75"
@@ -31,7 +31,7 @@ export default function Home() {
           <h3 className="text-md sm:text-xl">
             Apputvecklare | Webbutvecklare | Designer
           </h3>
-        </div>
+        </header>
         <div className="max-w-full bg-purple-200 py-24 skew-y-6 shadow-inner flex  justify-center">
           <div className="sm:flex sm: max-w-5xl -skew-y-6">
             <div className="w-full sm:w-1/2 flex justify-center">
