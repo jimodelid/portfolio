@@ -12,23 +12,33 @@ export default function PortfolioCard(props) {
         <div className="text-xl font-semibold">{props.title}</div>
         <div>{props.text}</div>
       </div>
-      {props.platform == "app" && (
-        <div className="grid grid-cols-2 gap-5 p-5 font-semibold portfolio-card-link">
+      <div className="grid grid-flow-col  auto-cols-auto gap-5 p-5 font-semibold portfolio-card-link">
+        {props.appstore && (
           <a target="blank" href={props.appstore}>
             App Store
           </a>
+        )}
+        {props.playstore && (
           <a target="blank" href={props.playstore}>
             Play Store
           </a>
-        </div>
-      )}
-      {props.platform == "web" && (
-        <div className="p-5 font-semibold portfolio-card-link">
+        )}
+        {props.weblink && (
           <a target="blank" href={props.weblink}>
-            Gå till hemsida
+            Hemsida
           </a>
-        </div>
-      )}
+        )}
+        {props.demolink && (
+          <a target="blank" href={props.demolink}>
+            Demo
+          </a>
+        )}
+        {props.gitlink && (
+          <a target="blank" href={props.gitlink}>
+            GitHub
+          </a>
+        )}
+      </div>
     </div>
   );
 }

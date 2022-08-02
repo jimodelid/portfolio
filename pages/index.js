@@ -130,7 +130,6 @@ export default function Home() {
                 image="/logos/vsupport.png"
                 title="vSupport"
                 text="Support App med öppettider, driftstörning, telefon, chatt och fler kommande funktioner."
-                platform="app"
                 appstore="https://apps.apple.com/se/app/vsupport/id1627177919"
                 playstore="https://play.google.com/store/apps/details?id=com.vendolink.vsupport"
               />
@@ -138,15 +137,20 @@ export default function Home() {
                 image="/logos/revolutioab.png"
                 title="Revolutio AB"
                 text="Webbutik för en cykelhandlare som integrerat med POS, baserat på Prestashop plattformen."
-                platform="web"
                 weblink="https://revolutioab.se"
               />
               <PortfolioCard
                 image="/logos/jsskylift.png"
                 title="JS Skylift"
                 text="Enkel hemsida för uthyrning av skylift med integrerad adminpanel för egenhantering."
-                platform="web"
                 weblink="http://jsskylift.se"
+              />
+              <PortfolioCard
+                image="/logos/jc.png"
+                title="joChat"
+                text="Chattprojekt, inkluderar komplett användarhantering och live-feed för meddelanden."
+                demolink="https://jochat-ea666.web.app/#/"
+                gitlink="https://github.com/jimodelid/jochat"
               />
             </div>
           </div>
