@@ -148,7 +148,7 @@ export default function Home() {
               <PortfolioCard
                 image="/logos/jc.png"
                 title="joChat"
-                text="Chattprojekt, inkluderar komplett användarhantering och live-feed för meddelanden."
+                text="Chattprojekt med Flutter, inkluderar komplett användarhantering och live-feed för meddelanden."
                 demolink="https://jochat-ea666.web.app/#/"
                 gitlink="https://github.com/jimodelid/jochat"
               />
