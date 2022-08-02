@@ -111,7 +111,7 @@ export default function Home() {
               Projekt jag hanterat själv eller varit delaktig i för att nå en
               färdig basis.
             </p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 overflow-x-hidden max-w-5xl m-auto">
+            <div className="px-5 py-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 overflow-x-hidden max-w-5xl m-auto">
               <PortfolioCard
                 image="/logos/vsupport.png"
                 title="vSupport"
