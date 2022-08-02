@@ -99,8 +99,8 @@ export default function Home() {
               Nämnvärda kompetenser med mindre fokus
             </h4>
             <p>
-              MySQL | MariaDB | Supabase | PostgreSQL | MongoDB | React | Vue |
-              PHP | React Native | Ionic
+              Appwrite | MySQL | MariaDB | Supabase | PostgreSQL | MongoDB |
+              React | Vue | PHP | React Native | Ionic
             </p>
           </div>
         </div>
