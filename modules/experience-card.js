@@ -1,4 +1,4 @@
-export default function Card(props) {
+export default function ExperienceCard(props) {
   return (
     <div
       className={
@@ -14,7 +14,7 @@ export default function Card(props) {
         />
       </div>
       <div className="text-white mt-5">
-        <h3 className="text-xl font-semibold">{props.title}</h3>
+        <h3 className="text-lg md:text-xl font-semibold">{props.title}</h3>
         <p>{props.text}</p>
       </div>
     </div>

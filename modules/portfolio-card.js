@@ -9,7 +9,7 @@ export default function PortfolioCard(props) {
         />
       </div>
       <div className="flex-1 mt-5">
-        <h4 className="text-xl font-semibold">{props.title}</h4>
+        <h4 className="text-lg md:text-xl font-semibold">{props.title}</h4>
         <p>{props.text}</p>
       </div>
       <div className="grid grid-flow-col  auto-cols-auto gap-5 p-5 font-semibold portfolio-card-link">

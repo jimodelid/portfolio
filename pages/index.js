@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import Card from "../modules/card";
+import ExperienceCard from "../modules/experience-card";
 import PortfolioCard from "../modules/portfolio-card";
 
 export default function Home() {
@@ -68,25 +68,25 @@ export default function Home() {
             </p>
           </div>
           <div className="p-5 grid grid-cols-2 lg:grid-cols-4 md:grid-cols-3 gap-2 sm:gap-5 overflow-x-hidden max-w-5xl m-auto">
-            <Card
+            <ExperienceCard
               background="bg-blue-300"
               image="/logos/flutter.png"
               title="Flutter"
               text="För utveckling mot alla plattformar så som PC, Mobil och Web. Baseras på språket dart."
             />
-            <Card
+            <ExperienceCard
               background="bg-black"
               image="/logos/nextjs.webp"
               title="Next.JS"
               text="För utveckling mot webb och API, enligt mig en förbättrad och förenklad variant av React.JS."
             />
-            <Card
+            <ExperienceCard
               background="bg-orange-400"
               image="/logos/fb.png"
               title="Firebase"
               text="Molnlösning med Databas, lagring, authentisering och notifikationer med mera."
             />
-            <Card
+            <ExperienceCard
               background="bg-red-400"
               image="/logos/hjc.png"
               title="HTML/CSS/JS"
